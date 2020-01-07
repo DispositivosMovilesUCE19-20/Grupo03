@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">2H_TAREA_01_G03</string>
+    <string name="nombre">Ingrese Nombre</string>
+    <string name="apellido">Ingrese Apellido</string>
+    <string name="telefono">Ingrese Telefono</string>
+    <string name="email">Ingrese Correo</string>
+    <string name="usuario">Ingrese Usuario</string>
+    <string name="contraseña">Ingrese Contraseña</string>
+    <string name="genero">Genero</string>
+    <string name="asignatura">Asignatura</string>
+    <string name="fecha_nacimiento">Ingrese Fecha de Nacimiento</string>
+    <string name="becado">Es Becado?</string>
+    <string name="default_notification_channel_id" translatable="false">default_channel</string>
+</resources>
