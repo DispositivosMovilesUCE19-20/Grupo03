@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1072779628738",
+    "firebase_url": "https://notificaciones-72a76.firebaseio.com",
+    "project_id": "notificaciones-72a76",
+    "storage_bucket": "notificaciones-72a76.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072779628738:android:d5e937eb8eeb6a874dab5b",
+        "android_client_info": {
+          "package_name": "uce.g3.registro_personas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072779628738-pl6rj0i789gtinrlpkp031ip6knnul4h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "uce.g3.registro_personas",
+            "certificate_hash": "3b92119b5bee1414afbea64b09a4081ca79f3fbf"
+          }
+        },
+        {
+          "client_id": "1072779628738-pvfqqlg0rgdm631mjruuqnqk8f0na5kn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3qSDYhpMHVTV0ONORViCiXlbQSblKKL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072779628738-pvfqqlg0rgdm631mjruuqnqk8f0na5kn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
