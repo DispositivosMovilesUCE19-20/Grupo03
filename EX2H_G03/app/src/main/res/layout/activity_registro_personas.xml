@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ec.edu.uce.optativa3.vista.RegistroPersonas">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="40dp">
+
+            <TextView
+                android:id="@+id/txtServicio3"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="REGISTRO DE ESTUDIANTES"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="24sp"
+                app:fontFamily="serif" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgFoto"
+                    android:layout_width="238dp"
+                    android:layout_height="155dp"
+                    android:src="@drawable/icon_user" />
+
+                <Button
+                    android:id="@+id/btnAgregarImg"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="Cargar Imagen" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/txtNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ingrese Nombre"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/txtApellido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ingrese Apellido"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/txtTelefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Numero de Celular"
+                android:inputType="phone" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Fecha de Nacimiento"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/spinnerDia"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Spinner
+                    android:id="@+id/spinnerMes"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Spinner
+                    android:id="@+id/spinnerAnio"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/txtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ingrese Correo"
+                android:inputType="textEmailAddress" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="69dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtVerGenero"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Genero"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/radioBtnGenero"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Masculino">
+
+                        <RadioButton
+                            android:id="@+id/radioBtnMasculino"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="Masculino" />
+
+                        <RadioButton
+                            android:id="@+id/radioBtnFemenino"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:text="Femenino" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Asignaturas"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/boxOptativa3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Optativa 3" />
+
+                    <CheckBox
+                        android:id="@+id/boxProgramacionDistribuida"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Programacion Distribuida" />
+
+                    <CheckBox
+                        android:id="@+id/boxGestionTics"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gestion de las Tics" />
+
+                    <CheckBox
+                        android:id="@+id/boxGestionProyectos"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gestion de Proyectos" />
+
+                    <CheckBox
+                        android:id="@+id/boxMineria"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Minería de Datos"
+                        android:layout_marginBottom="20dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Becado       "
+                android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:id="@+id/btnInsertar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center|center_horizontal"
+                android:layout_gravity="center"
+                android:text="Ingresar Persona" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
